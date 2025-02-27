@@ -5,7 +5,7 @@
 }
 
 body{
-  /* padding: 0px 150px; */
+  padding: 0px 100px;
 }
 ul li{
   list-style: none;
@@ -15,9 +15,9 @@ ul li{
 .nav-items {
     font-family: "Ubuntu", serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* padding: 20px; */
+    padding: 10px 0px 50px;
   }
   
   /* Logo section */
@@ -37,7 +37,7 @@ ul li{
   .nav-list ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
   }
   
   .nav-list ul li {
@@ -46,10 +46,9 @@ ul li{
   
   .nav-list ul li a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    /* padding: 0.5px 5px; */
-    display: inline-block;
+    padding: 0.5px 5px;
     color: rgb(95, 104, 123);
   }
   
@@ -79,7 +78,7 @@ ul li{
   
   .get-started {
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.9rem 1rem;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -87,7 +86,6 @@ ul li{
     background-color: rgb(55, 156, 69);
     border-radius: 50px;
   }
-  
 
 
   /* Main page */
@@ -116,7 +114,7 @@ ul li{
   }
   .home-btn button{
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.9rem 1rem;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -150,6 +148,8 @@ ul li{
   align-items: center;
   font-family: "Raleway", serif;
   line-height: 30px;
+  gap: 20px;
+  
 }
 
 
@@ -202,11 +202,16 @@ h3 {
   gap: 40px;
   justify-content: space-between;
   padding: 50px;
-  
+ 
 }
 .sec2 .img-fluid{
   width: 600px;
   height: auto;
+}
+
+/* Content section */
+.content{
+  line-height: 30px;
 }
 
 .sec2 h3{
@@ -221,3 +226,27 @@ h3 {
   color: green;
   font-size: 20px;
 }
+
+/* Sect3 */
+#about .sec3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  line-height: 40px;
+}
+
+.sec3 .items{
+  padding: 30px;
+}
+.sec3 h2{
+  font-size: 48px;
+  font-weight: 700;
+  color: green;
+}
+.sec3 p{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* SERVICES */
