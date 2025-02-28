@@ -294,3 +294,75 @@ h3 {
   position: relative;
   line-height: 100px;
 }
+
+
+/* PORTFOLOIO */
+.gallery {
+
+}
+.gallery .gal1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery .gal1 .app .img-gal1{
+  width: 400px;
+  height: auto;
+}
+
+.app {
+  position: relative;
+  display: inline-block;
+  width: 400px; 
+  /* overflow: hidden; */
+  /* border-radius: 10px; */
+}
+
+/* .img-gal1 {
+  width: 100%;
+  display: block;
+} */
+
+.app-hover {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 30;
+  width: 90%;
+  height: 30%;
+  z-index: 3;
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%); /* Start below */
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out, visibility 0.5s ease-out;
+}
+
+.app:hover .app-hover {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0); /* Slide into view */
+}
+
+.app-hover h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.app-hover span {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.app-hover i {
+  margin-left: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
